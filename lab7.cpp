@@ -68,6 +68,7 @@ class MyQueue
 {
 
   int front = 0;
+  int rear = -1;
 
 public:
   Stack s1, s2;
@@ -76,6 +77,6 @@ public:
   {
     int val = s1.pop();
     s2.push(val);
-    val = front;
   }
+  void enqueue(int val)
 };
