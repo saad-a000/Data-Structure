@@ -8,5 +8,7 @@ class Stack
   int cap;
   int top;
 
-  
+  public:
+  Stack (int s)
+
 };
